@@ -12,7 +12,7 @@
 class LiderTecnico : public Empleado {
 public:
   LiderTecnico(string nombre, double salarioBase);
-  double calcularSalaraio() const; override;
+  double calcularSalario() const override;
 };
 
 
