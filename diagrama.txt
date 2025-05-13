@@ -1,0 +1,29 @@
+classDiagram
+    class Empleado {
+        -string nombre
+        -double salarioBase
+        +Empleado(string, double)
+        +getNombre(): string
+        +calcularSalario(): double
+    }
+
+    class DesarrolladorJunior {
+        +calcularSalario(): double
+    }
+
+    class DesarrolladorSenior {
+        +calcularSalario(): double
+    }
+
+    class LiderTecnico {
+        +calcularSalario(): double
+    }
+
+    class Tester {
+        +calcularSalario(): double
+    }
+
+    Empleado <|-- DesarrolladorJunior
+    Empleado <|-- DesarrolladorSenior
+    Empleado <|-- LiderTecnico
+    Empleado <|-- Tester
