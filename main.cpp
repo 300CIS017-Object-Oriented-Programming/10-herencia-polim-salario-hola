@@ -8,14 +8,14 @@
 using namespace std;
 
 void inicializarDatos(vector<Empleado*>& empleados){
-  empleados.push_back(new DesarrolladorJunior("Santiago", 1500));
-  empleados.push_back(new DesarrolladorJunior("Alexander", 1500));
-  empleados.push_back(new DesarrolladorSenior("Alessandro", 1700));
-  empleados.push_back(new DesarrolladorSenior("Diego", 1700));
-  empleados.push_back(new LiderTecnico("Sebastian", 2000));
-  empleados.push_back(new LiderTecnico("Mario", 2000));
-  empleados.push_back(new Tester("Juan", 1200));
-  empleados.push_back(new Tester("Carlos", 1200));
+  empleados.push_back(new DesarrolladorJunior("Santiago", 1500000));
+  empleados.push_back(new DesarrolladorJunior("Alexander", 1500000));
+  empleados.push_back(new DesarrolladorSenior("Alessandro", 1700000));
+  empleados.push_back(new DesarrolladorSenior("Diego", 1700000));
+  empleados.push_back(new LiderTecnico("Sebastian", 2000000));
+  empleados.push_back(new LiderTecnico("Mario", 2000000));
+  empleados.push_back(new Tester("Juan", 1200000));
+  empleados.push_back(new Tester("Carlos", 1200000));
 }
 
 int main(){
